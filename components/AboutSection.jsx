@@ -1,0 +1,103 @@
+import { Briefcase, Code, User } from "lucide-react"
+
+export const AboutSection = () => {
+    return (
+        <section 
+            id="about"
+            className="py-24 px-4 relative"
+        >
+            <div className="container mx-auto max-w-5xl">
+                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    About <span className="text-primary"> Me</span>
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div className="space-y-6">
+                        <h3 className="text-2xl font-semibold">
+                            Hi, I’m Denis – A Passionate Fullstack Web Developer
+                        </h3>
+                        <p className="text-muted-foreground">
+                            I'm a detail-oriented developer who enjoys turning 
+                            complex ideas into clean, efficient, and user-friendly 
+                            web solutions. I specialize in building modern interfaces 
+                            using React, Tailwind CSS, and JavaScript — 
+                            backed by solid fullstack knowledge.
+                        </p>
+                        <p className="text-muted-foreground">
+                            Whether I’m creating a landing page or a full-scale web app, 
+                            I focus on delivering responsive, scalable, and 
+                            fast-loading experiences that meet real-world needs. 
+                            I'm always learning, building, and pushing the web forward — 
+                            one project at a time.
+                        </p>
+
+                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+                            <a 
+                            href="#contact" 
+                            className="cosmic-button">
+                                Get In Touch
+                            </a>
+
+                            <a 
+                            href="/Denis-Kiarie-CV.pdf" 
+                            download
+                            className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-6">
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Code className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Web Development</h4>
+                                    <p className="text-muted-foreground">
+                                        I build fast, scalable, and responsive web applications using React, 
+                                        Tailwind CSS, JavaScript, and backend tools to deliver fullstack solutions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <User className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <p className="text-muted-foreground">
+                                        I focus on crafting clean interfaces with user-first design principles, 
+                                        ensuring every layout is intuitive, accessible, and visually appealing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Briefcase className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Project Management</h4>
+                                    <p className="text-muted-foreground">
+                                        I organize and execute projects from idea to launch, 
+                                        using version control, agile practices, and clear communication 
+                                        to ensure timely delivery.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    )
+}
