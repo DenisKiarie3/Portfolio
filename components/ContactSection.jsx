@@ -1,16 +1,31 @@
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from "lucide-react"
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { toast } from 'react-hot-toast';
+import emailjs from "emailjs-com"
 
 export const ContactSection = () => {
+    const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
     const [isSubmitting, setIsSubmitting] = useState(false)
+    const form = useRef(); // ✅ ADDED form reference
+
     const handleSubmit = (e) => {
         e.preventDefault()
         setIsSubmitting(true)
-        setTimeout(() => {
-            toast.success('Message sent successfully!');
-            setIsSubmitting(false)
-        }, 1500)
+        // ✅ UPDATED EmailJS sendForm usage
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+            .then(() => {
+                toast.success('Message sent successfully!');
+                form.current.reset(); // ✅ Clear form
+            })
+            .catch((error) => {
+                console.error(error);
+                toast.error('Failed to send message.');
+            })
+            .finally(() => {
+                setIsSubmitting(false);
+            });
     }
     return (
         <section
@@ -118,11 +133,12 @@ export const ContactSection = () => {
 
                     <div 
                     className="bg-card p-8 rounded-lg shadow-xs" 
-                    onSubmit={handleSubmit}>
+                    >
                         <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
                         <form 
-                        action=""
+                        ref={form}
+                        onSubmit={handleSubmit}
                         className="space-y-6"
                         >
                             <div>
