@@ -4,9 +4,9 @@ import { toast } from 'react-hot-toast';
 import emailjs from "emailjs-com"
 
 export const ContactSection = () => {
-    const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-    const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    const SERVICE_ID = "service_zn09b14"
+    const TEMPLATE_ID = "template_fklquln"
+    const PUBLIC_KEY = "jvsLjm0MoFEJ6NIeI"
     const [isSubmitting, setIsSubmitting] = useState(false)
     const form = useRef(); // ✅ ADDED form reference
 
