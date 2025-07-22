@@ -14,21 +14,22 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Hi, I’m Denis – A Passionate Fullstack Web Developer
+                            Hi, I'm Denis — A Full Stack Developer Driving Impactful Web Experiences
                         </h3>
                         <p className="text-muted-foreground">
-                            I'm a detail-oriented developer who enjoys turning 
-                            complex ideas into clean, efficient, and user-friendly 
-                            web solutions. I specialize in building modern interfaces 
-                            using React, Tailwind CSS, and JavaScript — 
-                            backed by solid fullstack knowledge.
+                            I specialize in crafting high-performance, full stack web 
+                            applications using the MERN stack (MongoDB, Express.js, React, 
+                            Node.js) and Tailwind CSS. With every project, I blend 
+                            clean code, intuitive interfaces, and scalable architecture 
+                            to transform ideas into modern, production-ready digital products.
                         </p>
                         <p className="text-muted-foreground">
-                            Whether I’m creating a landing page or a full-scale web app, 
-                            I focus on delivering responsive, scalable, and 
-                            fast-loading experiences that meet real-world needs. 
-                            I'm always learning, building, and pushing the web forward — 
-                            one project at a time.
+                            Whether it's building a sleek landing page or a fully-featured 
+                            e-commerce platform like JAYS CLOSET, I focus on 
+                            delivering real-world solutions that are fast, secure, 
+                            and responsive. I'm passionate about writing maintainable code, 
+                            learning emerging technologies, and creating digital experiences 
+                            that matter.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -54,10 +55,10 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Development</h4>
+                                    <h4 className="font-semibold text-lg">Full Stack Development</h4>
                                     <p className="text-muted-foreground">
-                                        I build fast, scalable, and responsive web applications using React, 
-                                        Tailwind CSS, JavaScript, and backend tools to deliver fullstack solutions.
+                                        I architect scalable applications using React, Node.js, 
+                                        Express, and MongoDB — ensuring seamless integration between frontend and backend.
                                     </p>
                                 </div>
                             </div>
@@ -71,8 +72,9 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">UI/UX Design</h4>
                                     <p className="text-muted-foreground">
-                                        I focus on crafting clean interfaces with user-first design principles, 
-                                        ensuring every layout is intuitive, accessible, and visually appealing.
+                                        I prioritize user-first design by crafting clean, 
+                                        responsive, and intuitive interfaces that offer clarity, 
+                                        accessibility, and performance.
                                     </p>
                                 </div>
                             </div>
@@ -86,9 +88,9 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Project Management</h4>
                                     <p className="text-muted-foreground">
-                                        I organize and execute projects from idea to launch, 
-                                        using version control, agile practices, and clear communication 
-                                        to ensure timely delivery.
+                                        I manage full project lifecycles — from planning and development 
+                                        to deployment — using agile workflows, Git version control, and 
+                                        transparent communication.
                                     </p>
                                 </div>
                             </div>

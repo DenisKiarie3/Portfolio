@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
     id: 1,
-    title: "Jays-Closet",
-    description: "A fullstack ecommerce web app for women's fashion. Features user authentication, product browsing, cart system, and admin dashboard. Built for real-world usability and scalability.",
+    title: "Jays Closet",
+    description: "A full-stack e-commerce web application built with the MERN stack. Jays Closet features dynamic product listings, user authentication, shopping cart, order management, and a secure checkout process — all designed with responsiveness and real-world usability in mind.",
     image: "/projects/Project1.png",
-    tags: ["React", "Tailwind", "Express", "Node.js", "MySQL", "JWT", "Render", "Netlify"],
-    demoUrl: "https://jays-closet-official1.netlify.app/",
-    githubUrl: "https://github.com/DenisKiarie3/JAYS-CLOSET-OFFICIAL1.git",
+    tags: ["React", "Tailwind", "Express", "Node.js", "MongoDB", "JWT", "Render", "Netlify"],
+    demoUrl: "https://jayscloset.netlify.app/",
+    githubUrl: "https://github.com/DenisKiarie3/JAYSCLOSET-FRONTEND.git",
   },
 
   {
@@ -54,9 +54,11 @@ export const ProjectsSection = () => {
                     Featured <span className="text-primary"> Projects</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my featured projects. Each project was 
-                    carefully crafted with attention to detail, performance, 
-                    and user experience.
+                    Here are some of my featured full stack projects — each one thoughtfully 
+                    built with a focus on performance, scalability, and 
+                    seamless user experience. From responsive UIs to robust backend APIs, 
+                    these projects showcase my skills across the MERN stack and modern web 
+                    development tools.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (
