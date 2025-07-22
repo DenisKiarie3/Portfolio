@@ -34,6 +34,7 @@ const skills = [
   // Tools & DevOps
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "VSCode", level: 95, category: "tools" },
+  { name: "Redux Toolkit", level: 90, category: "tools" },
   { name: "Postman/Thunder Client/Insomnia", level: 85, category: "tools" },
   { name: "Netlify/Render", level: 95, category: "tools" },
   { name: "Linux Terminal (Ubuntu)", level: 85, category: "tools" },
