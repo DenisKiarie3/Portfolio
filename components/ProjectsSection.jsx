@@ -6,7 +6,7 @@ const projects = [
     title: "Jays Closet",
     description: "A full-stack e-commerce web application built with the MERN stack. Jays Closet features dynamic product listings, user authentication, shopping cart, order management, and a secure checkout process — all designed with responsiveness and real-world usability in mind.",
     image: "/projects/Project1.png",
-    tags: ["React", "Tailwind", "Express", "Node.js", "MongoDB", "JWT", "Render", "Netlify"],
+    tags: ["React", "Tailwind", "Express", "Node.js", "MongoDB", "JWT", "Redux", "Render", "Netlify"],
     demoUrl: "https://jayscloset.netlify.app/",
     githubUrl: "https://github.com/DenisKiarie3/JAYSCLOSET-FRONTEND.git",
   },
