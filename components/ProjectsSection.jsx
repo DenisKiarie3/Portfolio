@@ -40,6 +40,16 @@ const projects = [
     demoUrl: "https://deniskiarietraveljournal.netlify.app/",
     githubUrl: "https://github.com/DenisKiarie3/TRAVEL-JOURNAL.git",
   },
+
+  {
+    id: 5,
+    title: "Python Data Analysis Projects",
+    description: "Collection of Python projects including word frequency analysis, log file processing, and dataset exploration, using Pandas, NumPy, and Matplotlib.",
+    image: "/projects/Project5.jpg",
+    tags: ["Python", "Pandas", "NumPy", "Matplotlib", "Jupyter Notebook", "Data Analysis"],
+    demoUrl: "",
+    githubUrl: "https://github.com/DenisKiarie3/python-portfolio",
+  },
 ]
 
 export const ProjectsSection = () => {
@@ -54,11 +64,12 @@ export const ProjectsSection = () => {
                     Featured <span className="text-primary"> Projects</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my featured full stack projects — each one thoughtfully 
-                    built with a focus on performance, scalability, and 
-                    seamless user experience. From responsive UIs to robust backend APIs, 
-                    these projects showcase my skills across the MERN stack and modern web 
-                    development tools.
+                    Here are some of my featured projects — spanning full stack web applications 
+                    and Python-based AI/ML solutions. Each project is thoughtfully built with a 
+                    focus on performance, scalability, and real-world usability. From responsive 
+                    web interfaces to data-driven machine learning models, these projects demonstrate 
+                    my expertise in modern development tools, the MERN stack, and intelligent 
+                    solutions.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (

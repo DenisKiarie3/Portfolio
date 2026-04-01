@@ -13,11 +13,13 @@ export const HeroSection = () => {
                 </h1>
                 <p 
                     className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    As a passionate Full Stack Developer, I build fast, responsive, 
-                    and beautifully designed web applications using React, Tailwind CSS, 
-                    JavaScript, Node.js, and MongoDB. From sleek user interfaces to 
-                    robust backend systems, I help brands and businesses turn their vision into 
-                    scalable, high-converting digital products.
+                    Full Stack Developer with a strong foundation in Python, Artificial
+                     Intelligence, and Machine Learning. I build scalable
+                      web applications using React, Node.js, and MongoDB, while
+                       also developing data-driven solutions and machine learning 
+                       models to solve real-world problems. Passionate about
+                        combining software engineering and AI to create efficient, 
+                        intelligent, and impactful digital products.
                 </p>
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                     <a href="#projects" className="cosmic-button">

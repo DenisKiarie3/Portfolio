@@ -14,22 +14,24 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Hi, I'm Denis — A Full Stack Developer Driving Impactful Web Experiences
+                            Hi, I'm Denis — A Full Stack & AI Developer Building Intelligent Digital Solutions
                         </h3>
                         <p className="text-muted-foreground">
-                            I specialize in crafting high-performance, full stack web 
-                            applications using the MERN stack (MongoDB, Express.js, React, 
-                            Node.js) and Tailwind CSS. With every project, I blend 
-                            clean code, intuitive interfaces, and scalable architecture 
-                            to transform ideas into modern, production-ready digital products.
+                            I specialize in building scalable applications across both 
+                            web development and data-driven systems. Using the 
+                            MERN stack (MongoDB, Express.js, React, Node.js) alongside 
+                            Python, I develop modern web applications while also 
+                            working on machine learning models, data analysis, and 
+                            intelligent systems. My approach combines clean code, 
+                            efficient architecture, and practical problem-solving to 
+                            deliver production-ready solutions.
                         </p>
                         <p className="text-muted-foreground">
-                            Whether it's building a sleek landing page or a fully-featured 
-                            e-commerce platform like JAYS CLOSET, I focus on 
-                            delivering real-world solutions that are fast, secure, 
-                            and responsive. I'm passionate about writing maintainable code, 
-                            learning emerging technologies, and creating digital experiences 
-                            that matter.
+                            From developing full-stack platforms like JAYS CLOSET to building Python-based 
+                            data and machine learning projects, I focus on solving real-world problems 
+                            with both software engineering and AI. I am passionate about writing 
+                            maintainable code, exploring emerging technologies, and creating solutions 
+                            that are not only functional, but also intelligent, scalable, and impactful.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -57,8 +59,9 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Full Stack Development</h4>
                                     <p className="text-muted-foreground">
-                                        I architect scalable applications using React, Node.js, 
-                                        Express, and MongoDB — ensuring seamless integration between frontend and backend.
+                                        I build scalable web applications using React, Node.js, Express, and 
+                                        MongoDB, ensuring seamless integration between frontend and backend 
+                                        while maintaining performance, security, and clean architecture.
                                     </p>
                                 </div>
                             </div>
@@ -70,11 +73,11 @@ export const AboutSection = () => {
                                     <User className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <h4 className="font-semibold text-lg">AI & Machine Learning</h4>
                                     <p className="text-muted-foreground">
-                                        I prioritize user-first design by crafting clean, 
-                                        responsive, and intuitive interfaces that offer clarity, 
-                                        accessibility, and performance.
+                                        I develop data-driven solutions using Python, working with tools 
+                                        like Pandas, NumPy, and Scikit-learn to analyze data, build 
+                                        models, and solve real-world problems through intelligent systems.
                                     </p>
                                 </div>
                             </div>
@@ -86,11 +89,11 @@ export const AboutSection = () => {
                                     <Briefcase className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Project Management</h4>
+                                    <h4 className="font-semibold text-lg">Software Engineering & Delivery</h4>
                                     <p className="text-muted-foreground">
-                                        I manage full project lifecycles — from planning and development 
-                                        to deployment — using agile workflows, Git version control, and 
-                                        transparent communication.
+                                        I manage end-to-end development — from planning and building to deployment — using 
+                                        modern tools, version control, and structured workflows to deliver reliable 
+                                        and scalable applications.
                                     </p>
                                 </div>
                             </div>
