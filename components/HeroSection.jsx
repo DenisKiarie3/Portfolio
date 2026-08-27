@@ -13,13 +13,13 @@ export const HeroSection = () => {
                 </h1>
                 <p 
                     className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    Full Stack Developer with a strong foundation in Python, Artificial
-                     Intelligence, and Machine Learning. I build scalable
-                      web applications using React, Node.js, and MongoDB, while
-                       also developing data-driven solutions and machine learning 
-                       models to solve real-world problems. Passionate about
-                        combining software engineering and AI to create efficient, 
-                        intelligent, and impactful digital products.
+                    Full-Stack Developer building production-grade web applications with React, 
+                    Redux Toolkit, and Tailwind CSS on the frontend, and Django REST Framework, 
+                    PostgreSQL, and JWT authentication on the backend. I specialize in Kenya-first 
+                    fintech integrations — including Paystack and M-Pesa (Daraja) — and ship with 
+                    real test coverage, secure auth flows, and a clear path to production deployment. 
+                    I build software the way real products get built: scalable, secure, and 
+                    commercially viable from day one.
                 </p>
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                     <a href="#projects" className="cosmic-button">
