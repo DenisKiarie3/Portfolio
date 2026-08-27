@@ -1,44 +1,41 @@
 import { useState } from "react"
 
 const skills = [
-     // Frontend
+  // Frontend
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript (ES6+)", level: 90, category: "frontend" },
-  { name: "React.js", level: 90, category: "frontend" },
-  { name: "Tailwind CSS", level: 85, category: "frontend" },
+  { name: "React.js (Vite)", level: 90, category: "frontend" },
+  { name: "Redux Toolkit", level: 85, category: "frontend" },
+  { name: "Tailwind CSS v4", level: 90, category: "frontend" },
   { name: "React Router DOM", level: 90, category: "frontend" },
-  { name: "Framer Motion", level: 80, category: "frontend" },
-
+  { name: "Framer Motion", level: 85, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 85, category: "backend" },
-  { name: "Express.js", level: 90, category: "backend" },
-  { name: "RESTful APIs", level: 85, category: "backend" },
+  { name: "Python", level: 90, category: "backend" },
+  { name: "Django & Django REST Framework", level: 90, category: "backend" },
+  { name: "RESTful API Design", level: 85, category: "backend" },
   { name: "JWT Authentication", level: 85, category: "backend" },
+  { name: "API Security & CORS", level: 85, category: "backend" },
 
   // Databases
-  { name: "MongoDB", level: 90, category: "database" },
-  { name: "Mongoose", level: 85, category: "database" },
-  { name: "MySQL", level: 85, category: "database" },
+  { name: "PostgreSQL", level: 85, category: "database" },
+  { name: "Django ORM", level: 85, category: "database" },
+  { name: "SQLite", level: 85, category: "database" },
 
-  // Python & AI/ML
-  { name: "Python", level: 90, category: "python" },
-  { name: "Pandas & NumPy", level: 85, category: "python" },
-  { name: "Scikit-learn", level: 80, category: "python" },
-  { name: "Matplotlib / Data Visualization", level: 80, category: "python" },
-  { name: "Machine Learning Models", level: 80, category: "python" },
+  // Payments & Fintech
+  { name: "Paystack Integration", level: 90, category: "payments" },
+  { name: "M-Pesa Daraja API", level: 85, category: "payments" },
+  { name: "Webhook Verification & Security", level: 85, category: "payments" },
 
   // Tools & DevOps
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "VSCode", level: 95, category: "tools" },
   { name: "Postman", level: 85, category: "tools" },
   { name: "Netlify / Render", level: 90, category: "tools" },
-  { name: "Excel", level: 90, category: "tools" },
-  { name: "PowerPoint", level: 90, category: "tools" },
-  { name: "Word", level: 90, category: "tools" }
+  { name: "pytest & Vitest (Testing)", level: 90, category: "tools" }
 ]
 
-const categories =["all", "frontend", "backend", "database", "python", "tools"]
+const categories = ["all", "frontend", "backend", "database", "payments", "tools"]
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all")
     const filteredSkills = skills.filter(
@@ -54,10 +51,10 @@ export const SkillsSection = () => {
                     My <span className="text-primary"> Skills</span>
                 </h2>
                 <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-                    I work across both full stack development and data-driven technologies, 
-                    combining the MERN stack with Python, Artificial Intelligence, and 
-                    Machine Learning. Below is a snapshot of the tools and technologies I use to 
-                    build scalable web applications and intelligent, real-world solutions.
+                    I work across the full stack — React and Django — building secure, 
+                    production-grade web applications and Kenya-first fintech integrations. 
+                    Below is a snapshot of the tools and technologies I use to design, build, 
+                    test, and ship scalable, real-world applications.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -80,7 +77,7 @@ export const SkillsSection = () => {
                                     {skill.category === "frontend" && "Frontend technology"}
                                     {skill.category === "backend" && "Backend technology"}
                                     {skill.category === "database" && "Database & integration layer"}
-                                    {skill.category === "python" && "Python & AI/ML skill"}
+                                    {skill.category === "payments" && "Payments & fintech integration"}
                                     {skill.category === "tools" && "Development & deployment tool"}
                                 </p>
                             </div>
