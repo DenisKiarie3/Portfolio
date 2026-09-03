@@ -1,51 +1,31 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
-    {
+  {
     id: 1,
-    title: "Jays Closet",
-    description: "A full-stack e-commerce web application built with the MERN stack. Jays Closet features dynamic product listings, user authentication, shopping cart, order management, and a secure checkout process — all designed with responsiveness and real-world usability in mind.",
+    title: "KukujeshiStocker",
+    description: "A full-stack, multi-tenant inventory, POS, and payment collection platform for small retailers in Kenya. Store owners manage stock levels, process sales, and accept real Paystack payments, with role-based staff access and full data isolation between stores. Built solo end-to-end with JWT authentication, webhook-verified payments, and 65+ automated backend tests.",
     image: "/projects/Project1.png",
-    tags: ["React", "Tailwind", "Express", "Node.js", "MongoDB", "JWT", "Redux", "Render", "Netlify"],
-    demoUrl: "https://jayscloset.netlify.app/",
-    githubUrl: "https://github.com/DenisKiarie3/JAYSCLOSET-FRONTEND.git",
+    tags: ["React", "Redux Toolkit", "React Query", "Tailwind CSS", "Django REST Framework", "PostgreSQL", "JWT", "Paystack"],
+    demoUrl: "https://kukujeshistocker.netlify.app",
+    githubUrl: "https://github.com/DenisKiarie3/KukujeshiStocker",
   },
 
   {
     id: 2,
-    title: "Recipe App",
-    description: "A simple and responsive frontend app that displays delicious recipes with ingredients and steps. Users can explore meals by category and search functionality.",
+    title: "ClientFlow",
+    description: "A freelancer invoicing and client management platform built around a deliberate service-layer architecture — every data operation is isolated behind a services layer, so a real Django REST backend can be integrated later with zero component rewrites. Features dynamic invoicing with live-calculated totals, a stats dashboard, and an accessible, keyboard-navigable UI built in from the start.",
     image: "/projects/Project2.png",
-    tags: ["React", "Tailwind", "MealDB API", "Netlify"],
-    demoUrl: "https://deniskiarierecipeapp.netlify.app/",
-    githubUrl: "https://github.com/DenisKiarie3/RECIPE-APP.git",
+    tags: ["React", "Redux Toolkit", "Tailwind CSS v4", "Framer Motion", "React Router", "Zod", "Netlify"],
+    demoUrl: "https://clientflow-invoice.netlify.app/",
+    githubUrl: "https://github.com/DenisKiarie3/clientflow.git",
   },
 
   {
     id: 3,
-    title: "Meme Generator",
-    description: "A fun app that allows users to create custom memes by adding top and bottom text to random meme templates. Real-time preview included.",
-    image: "/projects/Project3.png",
-    tags: ["React", "Tailwind", "Meme API", "Netlify"],
-    demoUrl: "https://deniskiariememegenerator.netlify.app/",
-    githubUrl: "https://github.com/DenisKiarie3/MEME-GENERATOR.git",
-  },
-
-  {
-    id: 4,
-    title: "Travel Journal",
-    description: "A clean, card-based layout that displays memorable travel destinations with location, description, and date. Designed with focus on minimalism and responsive UI.",
-    image: "/projects/Project4.png",
-    tags: ["React", "Tailwind", "Static Content", "Netlify"],
-    demoUrl: "https://deniskiarietraveljournal.netlify.app/",
-    githubUrl: "https://github.com/DenisKiarie3/TRAVEL-JOURNAL.git",
-  },
-
-  {
-    id: 5,
     title: "Python Data Analysis Projects",
     description: "Collection of Python projects including word frequency analysis, log file processing, and dataset exploration, using Pandas, NumPy, and Matplotlib.",
-    image: "/projects/Project5.jpg",
+    image: "/projects/Project3.jpg",
     tags: ["Python", "Pandas", "NumPy", "Matplotlib", "Jupyter Notebook", "Data Analysis"],
     demoUrl: "",
     githubUrl: "https://github.com/DenisKiarie3/python-portfolio",
@@ -64,12 +44,12 @@ export const ProjectsSection = () => {
                     Featured <span className="text-primary"> Projects</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my featured projects — spanning full stack web applications 
-                    and Python-based AI/ML solutions. Each project is thoughtfully built with a 
-                    focus on performance, scalability, and real-world usability. From responsive 
-                    web interfaces to data-driven machine learning models, these projects demonstrate 
-                    my expertise in modern development tools, the MERN stack, and intelligent 
-                    solutions.
+                    Here are some of my featured projects — full-stack, production-grade 
+                    applications spanning inventory management, payments, and client 
+                    billing, alongside independent Python data analysis work. Each project 
+                    is built with a focus on security, real-world usability, and clean 
+                    architecture, from Django REST Framework backends with fintech 
+                    integrations to thoughtfully structured React frontends.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (
