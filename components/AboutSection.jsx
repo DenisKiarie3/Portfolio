@@ -26,7 +26,8 @@ export const AboutSection = () => {
                             users.
                         </p>
                         <p className="text-muted-foreground">
-                            From full-stack platforms like JAYS CLOSET to Kenya-first fintech builds 
+                            From full-stack platforms like KukujeshiStocker — a multi-tenant inventory 
+                            and payments platform for small retailers — to Kenya-first fintech builds 
                             integrating Paystack and M-Pesa, I focus on solving real-world business 
                             problems with reliable, well-tested software. I'm passionate about writing 
                             maintainable code, following disciplined engineering workflows, and 
